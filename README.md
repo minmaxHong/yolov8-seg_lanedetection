@@ -49,10 +49,8 @@ rosrun [catkin_ws/your_folder-path] inference.py
 ### Curve: [Download from GoogleDrive](https://drive.google.com/file/d/1dpVlkfJ3HU4GxnAfebnPtcZnZAFtA6ke/view?usp=drive_link)
 
 ## Result
-https://youtu.be/dyvAe9ug7Qk
-
-
-
+- https://youtu.be/dyvAe9ug7Qk
+- https://www.youtube.com/shorts/Q2AHA_SLr_4
 
 
 ## Reference
