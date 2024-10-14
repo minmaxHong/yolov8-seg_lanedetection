@@ -22,6 +22,9 @@ pip install -r requirements.txt
 I recommend you to study through that blog because you also need to know information about camera calibration.
 - https://darkpgmr.tistory.com/32
 
+### Also, you must specify the path of pt, video path before running inference.py .
+
+
 ## Dataset
 A custom dataset was constructed by fetching various topology lane images.
 You can get the dataset through the code below.
@@ -33,6 +36,13 @@ project = rf.workspace("dddd-oew5d").project("lane-tpkna")
 version = project.version(28)
 dataset = version.download("yolov8")
 ```
+
+## Inference
+```Shell
+roscore
+rosrun [catkin_ws/your_folder-path] inference.py
+```
+
 
 ## Test Videos
 ### Tunnel: [Download from GoogleDrive](https://drive.google.com/file/d/14vPN8ZRBmoJ7O6N_7EZ2y3ILCOPUXMJZ/view?usp=drive_link)
