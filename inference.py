@@ -15,8 +15,8 @@ from sklearn.preprocessing import PolynomialFeatures
 
 # from std_msgs.msg import Float64
 
-PT_PATH = r"C:\Users\H_\Desktop\Sungmin_Github\VisionTeamStudy\홍성민\Lane_Pt_Files\only_traffic_lane_2.pt"
-VIDEO_PATH = r"C:\Users\H_\Desktop\Sungmin_Github\VisionTeamStudy\홍성민\KakaoTalk_20240803_180550455.mp4"
+PT_PATH = r"-- PT PATH --"
+VIDEO_PATH = r"-- VIDEO PATH --"
 DEVICE = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
 MODEL = YOLO(PT_PATH).to(DEVICE)
