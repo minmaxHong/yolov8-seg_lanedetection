@@ -1,0 +1,12 @@
+opencv-python==4.9.0.80
+opencv-python-headless==4.8.0.74
+pytorch-lightning==2.4.0
+scikit-learn==1.4.1.post1
+torch==2.3.0+cu121
+torch-tb-profiler==0.4.3
+torchaudio==2.3.0+cu121
+torchmetrics==1.4.2
+torchsummary==1.5.1
+torchvision==0.18.0+cu121
+ultralytics==8.3.5
+ultralytics-thop==2.0.0
