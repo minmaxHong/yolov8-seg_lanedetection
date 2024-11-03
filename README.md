@@ -1,6 +1,10 @@
 # yolov8-seg_lanedetection
 YOLOv8-seg | Lane Detection | Easy to access
 
+<p align="center">
+<img src = https://github.com/user-attachments/assets/1193b20d-c7d6-42e9-b074-a025942d69da>
+</p>
+
 ## Introduction
 Topology lane recognition via Hough transform is difficult; therefore, lane recognition is achieved via accessible yolov8-segmentation.
 
